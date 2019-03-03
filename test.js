@@ -8,6 +8,7 @@ test('basic', (t) => {
   spok(t, parseGooglePlace(place), {
     streetNumber: '100',
     streetName: 'Pine Street',
+    streetNameShort: 'Pine St',
     address: '100 Pine Street',
     city: 'Denver',
     county: 'Mountain County',

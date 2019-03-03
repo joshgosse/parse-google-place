@@ -17,6 +17,7 @@ function parsePlace (place) {
   var result = {
     streetNumber: placeGet('street_number'),
     streetName: placeGet('route'),
+    streetNameShort: placeGet('route', true),
     city: placeGet('locality') ||
       placeGet('sublocality') ||
       placeGet('sublocality_level_1') ||
